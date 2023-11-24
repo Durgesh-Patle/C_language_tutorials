@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+    int i;
+    for(i=0;i<=100;i++)
+    {
+        if(i%2==0)
+        {
+         printf("even = %d",i);
+        }
+        else
+        {
+            printf("odd = %d",i);
+        }
+        printf("\n");
+    }
+     return 0;
+
+}
